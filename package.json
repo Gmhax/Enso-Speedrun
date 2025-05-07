@@ -1,0 +1,39 @@
+{
+    "name": "enso-auto-bot",
+    "version": "1.0.0",
+    "description": "Automated bot for completing Enso Speedrun daily tasks",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/airdropinsiders/Enso-Auto-Bot.git"
+    },
+    "keywords": [
+      "enso",
+      "defi",
+      "bot",
+      "automation",
+      "airdrop",
+      "ethereum"
+    ],
+    "author": "EDS",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/airdropinsiders/Enso-Auto-Bot/issues"
+    },
+    "homepage": "https://github.com/airdropinsiders/Enso-Auto-Bot#readme",
+    "dependencies": {
+      "axios": "^1.6.2",
+      "dotenv": "^16.3.1",
+      "ethers": "^6.7.1",
+      "https-proxy-agent": "^7.0.2",
+      "random-useragent": "^0.5.0"
+    },
+    "engines": {
+      "node": ">=18.0.0"
+    },
+    "type": "module"
+  }
